@@ -1,0 +1,13 @@
+//variable de ejemplo
+$vista:desktop;
+@body{
+    @if $vista == desktop {
+        background-color: red;
+    }@else if $vista == tablet {
+        background-color: green;
+    }
+    @else
+    {
+        background-color: yellow;
+    }
+}

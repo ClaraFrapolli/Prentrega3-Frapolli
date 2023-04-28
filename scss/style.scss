@@ -1,0 +1,47 @@
+//variables desktop
+$color-fondo: #585A6A;
+$color-primario: #7A9999;
+$color-secundario: #9DC3C3;
+$color-terciario: #DEF5F5;
+$font-small-size: 20px;
+$font-regular-size: 25px;
+$font-big-size: 27px;
+$paddingok: 60px;
+
+//variables responsive
+$color-resp1: #F0D1F0;
+$color-resp2: #EAA9D1;
+$color-resp3: #582D45;
+$color-resp4: #344444;
+$font-small-size-resp: 10px;
+$font-regular-size-resp: 15px;
+$font-big-size-resp: 1S7px;
+$paddingok-resp: 30px;
+
+
+body {
+    background-image: url('../img/fondo2.jpg');
+}    
+ /*VISTA DESKTOP*/
+
+@media (min-width :1024px) {
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+      background-color: pink;
+    }
+   }  
+   .inicio {
+    background-color: $color-resp1;
+   }
+
+    /*VISTA MOBILE*/
+
+    @media (max-width :780px){
+        .bg-secondary .container-fluid{display:flex;
+            width: 100%;}
+    }
+   
